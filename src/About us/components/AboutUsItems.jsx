@@ -35,7 +35,7 @@ export const AboutUsItems = () => {
   return (
     <div className='grid grid-cols-1 justify-items-center lg:mx-40 md:grid-cols-4 gap-4 '>
       {data.map((person, index) => (
-        <div key={index} className='md:my-4 my-4 md:w-52 md:h-52'>
+        <div key={index} className='md:my-4 my-4 md:w-52 md:h-auto'>
           <Card className='md:w-52' imgSrc={person.profile_picture}>
             <div>
               <h5 className='text-base text-center font-semibold tracking-tight text-gray-700 '>

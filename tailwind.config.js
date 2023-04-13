@@ -20,7 +20,8 @@ export default {
        '2/3' : '70%'
       },
       height:{
-        '130':'34rem'
+        '130':'34rem',
+        'extend': '110%'
       }
     },
     colors:{
