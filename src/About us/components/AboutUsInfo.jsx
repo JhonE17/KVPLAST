@@ -1,7 +1,7 @@
 export const AboutUsInfo = () => {
   return (
     <>
-      <h2 className='mb-4 text-4xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-5xl lg:text-6xl'>
+      <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
         Nosotros
       </h2>
       <p className='my-10 text-lg font-normal mx-4 text-justify text-gray-500 lg:text-xl sm:px-16 xl:px-36'>

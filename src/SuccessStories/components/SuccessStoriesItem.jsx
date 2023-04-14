@@ -34,7 +34,7 @@ const data = [
 export const SuccessStoriesItem = () => {
   return (
     <>
-      <h3 className='text-4xl mt-20 font-semibold text-center leading-none tracking-tight bg-gray-400 text-white md:text-5xl lg:text-6xl'>
+      <h3 className='text-3xl mt-20 font-semibold text-center leading-none tracking-tight bg-gray-400 text-white md:text-4xl lg:text-5xl'>
         Casos de exitos
       </h3>
       <div className='h-56 sm:h-96 xl:h-80 2xl:h-96'>
@@ -49,10 +49,10 @@ export const SuccessStoriesItem = () => {
                   className='rounded-full mb-3 w-16 h-16 mt-5 md:w-36 md:h-36 object-cover'
                   alt=''
                 />
-                <h5 className='text-base px-3 md:mx-40 text-justify font-semibold tracking-tight text-gray-700 '>
+                <h5 className='md:text-base text-sm px-3 md:mx-40 text-justify font-semibold tracking-tight text-gray-700 '>
                   {exito.text}
                 </h5>
-                <h5 className='text-3xl text-center font-semibold tracking-tight text-white '>
+                <h5 className='md:text-3xl text-lg text-center font-semibold tracking-tight text-white '>
                 {exito.full_name}
               </h5>
             </div>
