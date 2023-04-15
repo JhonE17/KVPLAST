@@ -4,13 +4,13 @@ export const FormContactUs = () => {
   return (
     <>
       <div id='contactenos' className='mx-8'>
-        <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
+        <h2 className='mb-4 text-3xl mt-20 font-semibold text-center items-center justify-items-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
           Contáctenos
         </h2>
-        <form className='flex flex-col md:mx-96 my-5 gap-4'>
+        <form className='flex flex-col max-w-md my-5 gap-4 md:translate-x-full '>
           <div>
             <div className='mb-2 block'>
-              <Label htmlFor='name' value='Nombre' />
+              <Label htmlFor='name' value='Nombre*' />
             </div>
             <TextInput
               id='name'
@@ -21,7 +21,7 @@ export const FormContactUs = () => {
           </div>
           <div>
             <div className='mb-2 block'>
-              <Label htmlFor='lastName' value='Apellido' />
+              <Label htmlFor='lastName' value='Apellido*' />
             </div>
             <TextInput
               id='lastName'
@@ -32,7 +32,7 @@ export const FormContactUs = () => {
           </div>
           <div>
             <div className='mb-2 block'>
-              <Label htmlFor='phone' value='Numero Telefonico' />
+              <Label htmlFor='phone' value='Numero Telefonico*' />
             </div>
             <TextInput
               id='phone'
@@ -43,7 +43,7 @@ export const FormContactUs = () => {
           </div>
           <div>
             <div className='mb-2 block'>
-              <Label htmlFor='email' value='Correo Electronico' />
+              <Label htmlFor='email' value='Correo Electronico*' />
             </div>
             <TextInput
               id='email'
@@ -54,7 +54,7 @@ export const FormContactUs = () => {
           </div>
           <div>
             <div className='mb-2 block'>
-              <Label htmlFor='countries' value='Estado de la República' />
+              <Label htmlFor='countries' value='Estado de la República*' />
             </div>
             <Select id='countries' required={true}>
               <option>Seleccione el valor</option>
@@ -108,7 +108,7 @@ export const FormContactUs = () => {
           </div>
           <div>
             <div className='mb-2 block'>
-              <Label htmlFor='public' value='¿Como se entero de nosotros?' />
+              <Label htmlFor='public' value='¿Como se entero de nosotros?*' />
             </div>
             <Select id='public' required={true}>
               <option>Seleccione el valor</option>
@@ -135,10 +135,12 @@ export const FormContactUs = () => {
               <option>PERIODICO EXCELSIOR</option>
             </Select>
           </div>
-          <div>
-            <Button className='md:mx-48 mx-28 bg-grey' type='submit'>
+          <div className='-mx-3 md:flex mt-2'>
+            <div className='md:w-full px-3'>
+            <Button className='md:w-full bg-gray-600 hover:bg-gray-400'  type='submit'>
               Enviar
             </Button>
+            </div>
           </div>
         </form>
       </div>
