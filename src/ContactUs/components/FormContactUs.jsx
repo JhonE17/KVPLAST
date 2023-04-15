@@ -4,7 +4,7 @@ export const FormContactUs = () => {
   return (
     <><div className='mx-8'>
       <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
-        Contactanos
+        Contáctenos
       </h2>
       <form className='flex flex-col md:mx-96 my-5 gap-4'>
         <div>
