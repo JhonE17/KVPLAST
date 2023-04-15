@@ -1,9 +1,9 @@
-// import { Collapse, initFlowbite} from "flowbite";
+import { Collapse, initFlowbite} from "flowbite";
 
+initFlowbite({Collapse})
 
 export const Navbar = () => {
 
-  // initFlowbite({Collapse})
 
   return (
   
