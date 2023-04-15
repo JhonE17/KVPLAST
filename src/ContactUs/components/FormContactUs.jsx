@@ -137,7 +137,7 @@ export const FormContactUs = () => {
           </div>
           <div className='-mx-3 md:flex mt-2'>
             <div className='md:w-full px-3'>
-            <Button className='md:w-full bg-gray-600 hover:bg-gray-400'  type='submit'>
+            <Button className='w-full bg-gray-600 hover:bg-gray-400'  type='submit'>
               Enviar
             </Button>
             </div>
