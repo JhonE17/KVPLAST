@@ -51,57 +51,57 @@ export const FormContactUs = () => {
             <Label htmlFor='countries' value='Estado de la República' />
           </div>
           <Select id='countries' required={true}>
-          <option value="">Seleccione el valor</option>
-            <option value='Aguascalientes'>Aguascalientes</option>
-            <option value='Baja California&nbsp;Norte'>
+          <option >Seleccione el valor</option>
+            <option >Aguascalientes</option>
+            <option >
               Baja California&nbsp;Norte
             </option>
-            <option value='Baja California Sur'>Baja California Sur</option>
-            <option value='Campeche'>Campeche</option>
-            <option value='CDMX'>CDMX</option>
-            <option value='Coahuila'>Coahuila</option>
-            <option value='Colima'>Colima</option>
-            <option value='Chiapas'>Chiapas</option>
-            <option value='Chihuahua'>Chihuahua</option>
-            <option value='Durango'>Durango</option>
-            <option value='Edo. de Mexico'>Edo. de Mexico</option>
-            <option value='Guanajuato'>Guanajuato</option>
-            <option value='Guerrero'>Guerrero</option>
-            <option value='Hidalgo'>Hidalgo</option>
-            <option value='Jalisco'>Jalisco</option>
-            <option value='Michoacan'>Michoacan</option>
-            <option value='Morelos'>Morelos</option>
-            <option value='Nayarit'>Nayarit</option>
-            <option value='Nuevo Leon'>Nuevo Leon</option>
-            <option value='Oaxaca'>Oaxaca</option>
-            <option value='Puebla'>Puebla</option>
-            <option value='Queretaro'>Queretaro</option>
-            <option value='Quintana Roo'>Quintana Roo</option>
-            <option value='San Luis Potosi'>San Luis Potosi</option>
-            <option value='Sinaloa'>Sinaloa</option>
-            <option value='Sonora'>Sonora</option>
-            <option value='Tabasco'>Tabasco</option>
-            <option value='Tamaulipas'>Tamaulipas</option>
-            <option value='Tlaxcala'>Tlaxcala</option>
-            <option value='Veracruz'>Veracruz</option>
-            <option value='Yucatan'>Yucatan</option>
-            <option value='Zacatecas'>Zacatecas</option>
-            <option value='EXTRANJERO'>EXTRANJERO</option>
-            <option value='Guadalajara'>Guadalajara</option>
-            <option value='Baja California Norte'>Baja California Norte</option>
-            <option value='Edo. de M'>Edo. de M</option>
-            <option value='Edo.de Mexico'>Edo.de Mexico</option>
-            <option value='Baja Calilfornia Norte'>
+            <option >Baja California Sur</option>
+            <option >Campeche</option>
+            <option >CDMX</option>
+            <option >Coahuila</option>
+            <option >Colima</option>
+            <option >Chiapas</option>
+            <option >Chihuahua</option>
+            <option >Durango</option>
+            <option >Edo. de Mexico</option>
+            <option >Guanajuato</option>
+            <option >Guerrero</option>
+            <option >Hidalgo</option>
+            <option >Jalisco</option>
+            <option >Michoacan</option>
+            <option >Morelos</option>
+            <option >Nayarit</option>
+            <option >Nuevo Leon</option>
+            <option >Oaxaca</option>
+            <option >Puebla</option>
+            <option >Queretaro</option>
+            <option >Quintana Roo</option>
+            <option >San Luis Potosi</option>
+            <option >Sinaloa</option>
+            <option >Sonora</option>
+            <option >Tabasco</option>
+            <option >Tamaulipas</option>
+            <option >Tlaxcala</option>
+            <option >Veracruz</option>
+            <option >Yucatan</option>
+            <option >Zacatecas</option>
+            <option >EXTRANJERO</option>
+            <option >Guadalajara</option>
+            <option >Baja California Norte</option>
+            <option >Edo. de M</option>
+            <option >Edo.de Mexico</option>
+            <option >
               Baja Calilfornia Norte
             </option>
-            <option value='Jalisico'>Jalisico</option>
-            <option value='Quitana Roo'>Quitana Roo</option>
-            <option value='Merida'>Merida</option>
-            <option value='Hidago'>Hidago</option>
-            <option value='Querataro'>Querataro</option>
-            <option value='Tuxtla'>Tuxtla</option>
-            <option value='Edo.deMexico'>Edo.deMexico</option>
-            <option value='Quinatana Roo'>Quinatana Roo</option>
+            <option >Jalisico</option>
+            <option >Quitana Roo</option>
+            <option >Merida</option>
+            <option >Hidago</option>
+            <option >Querataro</option>
+            <option >Tuxtla</option>
+            <option >Edo.deMexico</option>
+            <option >Quinatana Roo</option>
           </Select>
         </div>
         <div>
@@ -109,30 +109,30 @@ export const FormContactUs = () => {
             <Label htmlFor='public' value='¿Como se entero de nosotros?' />
           </div>
           <Select id='public' required={true}>
-            <option value=''>Seleccione el valor</option>
-            <option value='100FRANQUICIAS'>100FRANQUICIAS</option>
-            <option value='ANUNCIO DE TV AZTECA'>ANUNCIO DE TV AZTECA</option>
-            <option value='INSTAGRAM'>INSTAGRAM</option>
-            <option value='MULTIMEDIOS'>MULTIMEDIOS</option>
-            <option value='EL HERALDO'>EL HERALDO</option>
-            <option value='EXPO-MERIDA'>EXPO-MERIDA</option>
-            <option value='INTERNET-GOOGLE' selected=''>
+            <option >Seleccione el valor</option>
+            <option >100FRANQUICIAS</option>
+            <option >ANUNCIO DE TV AZTECA</option>
+            <option >INSTAGRAM</option>
+            <option >MULTIMEDIOS</option>
+            <option >EL HERALDO</option>
+            <option >EXPO-MERIDA</option>
+            <option >
               INTERNET-GOOGLE
             </option>
-            <option value='FACEBOOK'>FACEBOOK</option>
-            <option value='FACEBOOK SHOP'>FACEBOOK SHOP</option>
-            <option value='MEDIOS IMPRESOS'>MEDIOS IMPRESOS</option>
-            <option value='MAILING'>MAILING</option>
-            <option value='Mencion de TV Azteca'>Mencion de TV Azteca</option>
-            <option value='PASO DE CALLE'>PASO DE CALLE</option>
-            <option value='RECOMENDACION'>RECOMENDACION</option>
-            <option value='RECOVERY'>RECOVERY</option>
-            <option value='YOUTUBE'>YOUTUBE</option>
-            <option value='WHATSAPP'>WHATSAPP</option>
-            <option value='FACEBOOK MKT'>FACEBOOK MKT</option>
-            <option value='RADIO KY 94.7 FM'>RADIO KY 94.7 FM</option>
-            <option value='IMAGEN TV'>IMAGEN TV</option>
-            <option value='PERIODICO EXCELSIOR'>PERIODICO EXCELSIOR</option>
+            <option >FACEBOOK</option>
+            <option >FACEBOOK SHOP</option>
+            <option >MEDIOS IMPRESOS</option>
+            <option >MAILING</option>
+            <option >Mencion de TV Azteca</option>
+            <option >PASO DE CALLE</option>
+            <option >RECOMENDACION</option>
+            <option >RECOVERY</option>
+            <option >YOUTUBE</option>
+            <option >WHATSAPP</option>
+            <option >FACEBOOK MKT</option>
+            <option >RADIO KY 94.7 FM</option>
+            <option >IMAGEN TV</option>
+            <option >PERIODICO EXCELSIOR</option>
           </Select>
         </div>
 

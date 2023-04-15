@@ -1,19 +1,19 @@
-import { Navbar } from './components/Navbar';
-import { GalleryWithSlider } from './components/GalleryWithSlider';
 import { AboutUs } from './About us/AboutUs';
-import { SuccesStories } from './SuccessStories/SuccesStories';
 import { ContactUs } from './ContactUs/ContactUs';
-import { Footer } from './components/Footer';
+import { SuccesStories } from './SuccessStories/SuccesStories';
+import { ButtonSocialRed, ButtonWhatsapp, Footer, GalleryWithSlider, Navbar } from './components';
 
 function App() {
   return (
     <>
       <Navbar />
-      <GalleryWithSlider/>
+      <GalleryWithSlider />
       <AboutUs />
-      <SuccesStories/>
-      <ContactUs/>
-      <Footer/>
+      <SuccesStories />
+      <ContactUs />
+      <Footer />
+      <ButtonWhatsapp/>
+      <ButtonSocialRed/>
     </>
   );
 }

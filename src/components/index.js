@@ -1,0 +1,5 @@
+export * from './Navbar'
+export * from './GalleryWithSlider'
+export * from './ButtonWhatsapp'
+export * from './Footer'
+export * from './ButtonSocialRed'

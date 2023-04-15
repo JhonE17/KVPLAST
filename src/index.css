@@ -6,3 +6,25 @@ ion-icon{
   color: grey;
   font-size: 24px;
 }
+
+.rounded-t-lg{
+  height: 25rem;
+}
+
+/* .whatsapp {
+  position:fixed;
+  width:70px;
+  height:70px;
+  bottom:40px;
+  right:15px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:10px;
+} */
