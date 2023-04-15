@@ -9,7 +9,7 @@ export const Modal = () => {
         <div className='relative w-full max-w-2xl max-h-full'>
           <div className='relative bg-white rounded-lg shadow dark:bg-gray-700'>
             <div className='flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600'>
-              <h3 class='text-xl font-semibold text-gray-900 dark:text-white'>
+              <h3 className='text-xl font-semibold text-gray-900 dark:text-white'>
                 BIODIGESTOR BIO-VK 1400
               </h3>
               <button
