@@ -16,7 +16,7 @@ export const Footer = () => {
           </div>
           <br />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center ">© 2023 <a href="#" className="hover:underline">KV Plast™</a>. All Rights Reserved.
+          <span className="text-sm text-gray-500 sm:text-center ">© 2023 <a href="#" className="hover:underline">KVPLAST™</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 ">

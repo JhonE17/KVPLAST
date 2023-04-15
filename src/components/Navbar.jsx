@@ -1,19 +1,9 @@
-import { Collapse } from "flowbite";
+import { Collapse, initFlowbite} from "flowbite";
 
 
 export const Navbar = () => {
 
-const $targetEl = document.getElementById('navbar-solid-bg');
-const $triggerEl = document.getElementById('triggerEl');
-const options = {
-  onToggle: () => {
-      console.log('element has been toggled')
-  }
-};
-
-new Collapse($targetEl, $triggerEl, options);
-
-
+  initFlowbite({Collapse})
 
   return (
   
@@ -28,14 +18,14 @@ new Collapse($targetEl, $triggerEl, options);
     </button>
     <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg" >
       <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-        {/* <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-white bg-cyan rounded md:bg-transparent md:text-cyan md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
-        </li> */}
         <li>
           <a href="#nuestro-equipo" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Nuestro equipo</a>
         </li>
         <li>
           <a href="#casos-exitos" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Casos de éxitos</a>
+        </li>
+        <li>
+          <a href="#productos" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Productos</a>
         </li>
         <li>
           <a href="#contactenos" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Contáctenos</a>
