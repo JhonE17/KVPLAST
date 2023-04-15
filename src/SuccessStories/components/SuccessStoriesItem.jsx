@@ -7,11 +7,11 @@ import  {successStoriesItem}  from './data/successStories';
 export const SuccessStoriesItem = () => {
   return (
     <>
-      <h3 className='text-3xl mt-20 font-semibold text-center leading-none tracking-tight bg-gray-300 text-gray-700 md:text-4xl lg:text-5xl'>
+      <h3 className='text-3xl h-14 mt-20 font-semibold text-center leading-none tracking-tight bg-gray-300 text-gray-700 md:text-4xl lg:text-5xl'>
         Casos de exitos
       </h3>
-      <div className='h-56 sm:h-96 xl:h-80 2xl:h-96'>
-        <Carousel >
+      <div className='h-80 overflow-hidden sm:h-96 xl:h-96 2xl:h-96'>
+        <Carousel  >
           {successStoriesItem.map((exito, index) => (
             <div
               key={index}
