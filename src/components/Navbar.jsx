@@ -7,7 +7,7 @@ export const Navbar = () => {
 
   return (
   
-<nav className="border-gray-200 bg-gray-50">
+<nav className="border-gray-200 fixed w-full top-0 z-50 bg-gray-50">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" className="flex items-center">
         <span className="self-center text-4xl font-black whitespace-nowrap "><span className="text-gray-700">KV</span><span className="text-gray-500">PLAST</span></span>
@@ -19,7 +19,7 @@ export const Navbar = () => {
     <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg" >
       <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
         <li>
-          <a href="#nuestro-equipo" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Nuestro equipo</a>
+          <a href="#nuestro-equipo" className="block py-2 pl-3 pr-4 overflow-auto text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Nuestro equipo</a>
         </li>
         <li>
           <a href="#casos-exitos" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Casos de éxitos</a>
