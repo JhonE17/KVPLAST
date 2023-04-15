@@ -22,16 +22,19 @@ export const AboutUsInfo = () => {
             </p>
           </li>
           <li className="mb-3">
-            <p><b>2.</b>  Venta de Cisternas y Tanques de almacenamiento: Ideales para almacenar químicos, fragancias y sustancias peligrosas que deben ser aislados</p>
+            <p><b>2.  Venta de Cisternas y Tanques de almacenamiento: </b></p>
+            <ol>
+              <li><b>2.1.</b> Ideales para almacenar químicos, fragancias y sustancias peligrosas que deben ser aislados</li>
+            </ol>
           </li>
           <li className="mb-3">
             <p><b>3. Tratamiento Especializado de aguas:</b></p>
             <ol>
-              <li className="mb-1"><p>Aguas grises o jabonosas</p> </li>
-              <li className="mb-1"><p>Aguas pluviales</p> </li>
-              <li className="mb-1"><p>Aguas de mar</p> </li>
-              <li className="mb-1"><p>Aguas industriales</p> </li>
-              <li className="mb-1"><p>Aguas de uso industrial (mineral, irónico intercambio, oxigenadas, aguas destiladas, etc). </p> </li>
+              <li className="mb-1"><p><b>3.1.</b> Aguas grises o jabonosas</p> </li>
+              <li className="mb-1"><p><b>3.2.</b> Aguas pluviales</p> </li>
+              <li className="mb-1"><p><b>3.3.</b> Aguas de mar</p> </li>
+              <li className="mb-1"><p><b>3.4.</b> Aguas industriales</p> </li>
+              <li className="mb-1"><p><b>3.5.</b> Aguas de uso industrial (mineral, irónico intercambio, oxigenadas, aguas destiladas, etc). </p> </li>
             </ol>
           </li>
           <li className="mb-3">
