@@ -6,7 +6,7 @@ import  {successStoriesItem}  from './data/successStories';
 
 export const SuccessStoriesItem = () => {
   return (
-    <>
+    <><div id='casos-exitos'>
       <h3 className='text-3xl h-14 mt-20 font-semibold text-center leading-none tracking-tight bg-gray-300 text-gray-700 md:text-4xl lg:text-5xl'>
         Casos de éxitos
       </h3>
@@ -31,6 +31,7 @@ export const SuccessStoriesItem = () => {
             </div>
           ))}
         </Carousel>
+      </div>
       </div>
     </>
   );

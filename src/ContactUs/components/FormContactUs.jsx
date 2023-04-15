@@ -2,7 +2,8 @@ import { Button, Label, Select, TextInput } from 'flowbite-react';
 
 export const FormContactUs = () => {
   return (
-    <><div className='mx-8'>
+    <>
+    <div id='contactenos' className='mx-8'>
       <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
         Contáctenos
       </h2>

@@ -1,6 +1,7 @@
 export const AboutUsInfo = () => {
   return (
     <>
+    <div id='nuestro-equipo'>
       <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
         Nuestro Equipo
       </h2>
@@ -37,6 +38,7 @@ export const AboutUsInfo = () => {
             <p><b>4. Potabilizadoras: </b>Desarrollamos proyectos que suministren agua potable a comunidades, empresas, colonias, ¡Pregunta por nuestros paquetes pre armados).</p>
           </li>
         </ol>
+      </div>
       </div>
     </>
   );

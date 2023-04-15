@@ -32,13 +32,13 @@ new Collapse($targetEl, $triggerEl, options);
           <a href="#" className="block py-2 pl-3 pr-4 text-white bg-cyan rounded md:bg-transparent md:text-cyan md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
         </li> */}
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Nuestro equipo</a>
+          <a href="#nuestro-equipo" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Nuestro equipo</a>
         </li>
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Casos de éxitos</a>
+          <a href="#casos-exitos" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Casos de éxitos</a>
         </li>
         <li>
-          <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Contáctenos</a>
+          <a href="#contactenos" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Contáctenos</a>
         </li>
       </ul>
     </div>
