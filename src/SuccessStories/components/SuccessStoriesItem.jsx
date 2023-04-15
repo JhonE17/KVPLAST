@@ -1,5 +1,6 @@
 import { Carousel } from 'flowbite-react';
-import { successStoriesItem } from './data/successStories';
+import  {successStoriesItem}  from './data/successStories';
+
 
 
 
@@ -19,7 +20,7 @@ export const SuccessStoriesItem = () => {
                 <img
                   src={exito.profile_picture}
                   className='rounded-full mb-3 w-16 h-16 mt-5 md:w-36 md:h-36 object-cover'
-                  alt=''
+                  alt={exito.full_name}
                 />
                 <h5 className='md:text-base text-sm px-3 md:mx-40 text-justify font-semibold tracking-tight text-gray-700 '>
                   {exito.text}
