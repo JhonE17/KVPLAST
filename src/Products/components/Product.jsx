@@ -7,7 +7,7 @@ export const Product = ({data}) => {
     const onClose = ()=> setShowModal(false)
   return (
     <div className='max-w-sm p-6 bg-white border shadow border-gray-200 rounded-lg'>
-    <img className="w-80 h-96" src={data.image} alt='' />
+    <img className="w-72 object-contain h-72" src={data.image} alt='' />
     <p className='mb-3 font-normal text-xl text-gray-700 dark:text-gray-400'>
      <b> {data.name}</b>
     </p>
