@@ -1,19 +1,28 @@
-export const Modal = () => {
+export const Modal = ({visible,close}) => {
+
+const handleClose = (e)=>{
+  if(e.target.id === 'Modal' ) close()
+}
+  if(!visible) return null
+
+
   return (
     <>
       <div
-        id='defaultModal'
+        id='Modal'
         tabIndex='-1'
         aria-hidden='true'
-        className='fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto inset-0 h-[calc(100%-1rem)] max-h-full'>
+        onClick={handleClose}
+        className={`fixed flex overscroll-none justify-center z-50 w-full max-h-full p-4 overflow-x-hidden bg-black bg-opacity-30 backdrop-blur-sm overflow-y-auto inset-0  ${!visible && 'hidden '} `}>
         <div className='relative w-full max-w-2xl max-h-full'>
           <div className='relative bg-white rounded-lg shadow '>
-            <div className='flex items-start justify-between p-4 border-b rounded-t'>
+            <div className='flex items-start justify-between p-3 border-b rounded-t'>
               <h3 className='text-xl font-semibold text-gray-900'>
                 BIODIGESTOR BIO-VK 1400
               </h3>
               <button
                 type='button'
+                onClick={()=>close()}
                 className='text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white'
                 data-modal-hide='defaultModal'>
                 <svg
@@ -28,6 +37,7 @@ export const Modal = () => {
                     clipRule='evenodd'></path>
                 </svg>
                 <span className='sr-only'>Close modal</span>
+                
               </button>
             </div>
 
@@ -65,6 +75,7 @@ export const Modal = () => {
               <button
                 data-modal-hide='defaultModal'
                 type='button'
+                onClick={()=>close()}
                 className='text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center '>
                 Cerrar
               </button>
