@@ -13,7 +13,7 @@ export const SuccessStoriesItem = () => {
             {successStoriesItem.map((exito, index) => (
               <div
                 key={index}
-                className='flex md:h-full h-extend flex-col place-content-center items-center content-center justify-center mb-4 bg-gray-300 '>
+                className='flex h-full flex-col place-content-center items-center content-center justify-center mb-4 bg-gray-300 '>
                 <img
                   src={exito.profile_picture}
                   className='rounded-full mb-3 w-16 h-16 mt-5 md:w-36 md:h-36 object-cover'
