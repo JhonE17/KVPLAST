@@ -50,7 +50,12 @@ const handleClose = (e)=>{
              <ImageModal image={data.image}  alt={data.name}/>
               </div>
               {/* Paragraph product */}
-              <ParagraphProduct paragraph={data.parrafo1}/>
+              {
+                (data.id == 3 || data.id == 2) ? ( data.parrafo1.map((parrf, index)=>(
+                  <ParagraphProduct key={index} paragraph={parrf}/>
+                ))):  <ParagraphProduct paragraph={data.parrafo1}/>
+              }
+             
               <TitleModal title={data.title2}/>
               <ParagraphProduct paragraph={data.parrafo2}/>
               <TitleModal title={data.title3}/>
