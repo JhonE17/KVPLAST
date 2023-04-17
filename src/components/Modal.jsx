@@ -1,10 +1,11 @@
-export const Modal = ({visible,close}) => {
+import { ImageModal, ParagraphProduct, TitleModal} from "./";
+
+export const Modal = ({visible,close,data}) => {
 
 const handleClose = (e)=>{
   if(e.target.id === 'Modal' ) close()
 }
   if(!visible) return null
-
 
   return (
     <>
@@ -18,7 +19,7 @@ const handleClose = (e)=>{
           <div className='relative bg-white rounded-lg shadow '>
             <div className='flex items-start justify-between p-3 border-b rounded-t'>
               <h3 className='text-xl font-semibold text-gray-900'>
-                BIODIGESTOR BIO-VK 1400
+                {data.name.toUpperCase()}
               </h3>
               <button
                 type='button'
@@ -42,33 +43,18 @@ const handleClose = (e)=>{
             </div>
 
             <div className='p-6 space-y-6'>
-              <h4 className='text-2xl leading-relaxed text-center text-gray-500 dark:text-gray-400'>
-                ESQUEMA DE FUNCIONAMIENTO
-              </h4>
-              <img src='assets/images/esquemafunciona.jpg' alt='' />
-              <h4 className='text-2xl leading-relaxed text-center text-gray-500 dark:text-gray-400'>
-                FUNCIONAMIENTO
-              </h4>
-              <p className='text-base leading-relaxed text-gray-500 dark:text-gray-400'>
-                Cuando el sistema <b>BIO-VK 1400</b> recibe una descarga entra
-                por el ducto (#1), almacenándose en la <b>CAM #1</b> y
-                posteriormente,<b>CAM #2</b>y<b>CAM #3</b>respectivamente. Este
-                proceso permite la degradación del sólido, transformándolo en
-                lodo, logrando la limpieza del líquido.
-                <br />
-                <br />
-                Las divisiones interiores o mamparas (#2) realizan la separación
-                de los desechos sólidos y permiten el flujo del líquido para
-                evitar que se mezclen entre ellos. Posteriormente, el líquido
-                pasa por el Filtro Geotextil - Mineral (#3) para retener
-                cualquier partícula restante y evitar que llegue a la salida
-                (#4), de esta forma el líquido estará libre de sedimentos,
-                biodigerido y clarificado.
-                <br />
-                <br />
-                La salida de lodos (#5) permite el retiro de los sedimentos.
-                Recomendable cada 6 a 8 meses.
-              </p>
+              {/* Title product */}
+              <TitleModal title={data.title1}/>
+                {/* Image product */}
+              <div className="flex items-center justify-center">
+             <ImageModal image={data.image}  alt={data.name}/>
+              </div>
+              {/* Paragraph product */}
+              <ParagraphProduct paragraph={data.parrafo1}/>
+              <TitleModal title={data.title2}/>
+              <ParagraphProduct paragraph={data.parrafo2}/>
+              <TitleModal title={data.title3}/>
+              <ParagraphProduct paragraph={data.parrafo3}/>
             </div>
 
             <div className='flex items-center p-6 space-x-2 border-t justify-between border-gray-200 rounded-b dark:border-gray-600'>
@@ -83,8 +69,8 @@ const handleClose = (e)=>{
                 type='button'
                 className='text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center '>
                 <a
-                  href='assets/docs/BIODIGESTOR KVPLAST.pdf'
-                  download={'Biodigestor'}>
+                  href={data.doc}
+                  download={data.name}>
                   Descargar
                 </a>
               </button>

@@ -1,21 +1,29 @@
-import { useState } from 'react';
-import { Modal } from '../../components';
+
+import { aqua, biodigestor } from '../data';
+import { SubtitleProduct } from './SubtitleProduct';
+import { Product } from './Product';
 
 export const ProductsItem = () => {
-
-  const [showModal, setShowModal] = useState(false)
-
-  const onClose = ()=> setShowModal(false)
-
-
   return (
     <div id='productos'>
       <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
         Productos
       </h2>
+      <SubtitleProduct title={'Aqua Pluvial'} />
 
       <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
-        <div className='max-w-sm p-6 bg-white border shadow border-gray-200 rounded-lg'>
+        {aqua.map((aquaItems, index) => (
+          <Product key={index} data={aquaItems} />
+          ))}
+      </div>
+          <SubtitleProduct title={'Biodigestores'} />
+      <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
+        {biodigestor.map((bio, index) => (
+          <Product key={index} data={bio} />
+        ))}
+      </div>
+
+      {/* <div className='max-w-sm p-6 bg-white border shadow border-gray-200 rounded-lg'>
           <img src='assets/images/biodigestor.jpg' alt='' />
           <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
             Biodigestor Autolimpiable
@@ -63,8 +71,7 @@ export const ProductsItem = () => {
           </button>
 
           <Modal />
-        </div>
-      </div>
+        </div> */}
     </div>
   );
 };
