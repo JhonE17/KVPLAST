@@ -9,7 +9,7 @@ export const SuccessStoriesItem = () => {
           Casos de éxitos
         </h3>
         <div className='h-80 overflow-hidden overscroll-none sm:h-96 xl:h-96 2xl:h-96'>
-          <Carousel className='carousel'>
+          <Carousel slideInterval={20000} className='carousel'>
             {successStoriesItem.map((exito, index) => (
               <div
                 key={index}

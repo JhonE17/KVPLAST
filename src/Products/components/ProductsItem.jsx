@@ -9,7 +9,7 @@ export const ProductsItem = () => {
       <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
         Productos
       </h2>
-      <SubtitleProduct title={'Aqua Pluvial'} />
+      <SubtitleProduct title={'Sección Tratatamiento de Agua Pluvial'} />
 
       <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
         {aqua.map((aquaItems, index) => (
