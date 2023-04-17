@@ -3,36 +3,35 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    'node_modules/flowbite-react/**/*.{js,ts,jsx,tsx}'
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+    'node_modules/flowbite-react/**/*.{js,ts,jsx,tsx}',
+    './node_modules/flowbite/**/*.js',
   ],
   theme: {
     screens: {
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
       '2xl': '1536px',
     },
     extend: {
-      maxWidth:{
-       '2/3' : '70%'
+      maxWidth: {
+        '2/3': '70%',
       },
-      height:{
-        '130':'34rem',
-        'extend': '110%'
-      }
+      height: {
+        130: '34rem',
+        extend: '110%',
+      },
     },
-    colors:{
+    colors: {
       cyan: '#24C7CE',
-      grey: '#53535D'
+      grey: '#53535D',
     },
-    fontFamily:{
-      sans:['Roboto','sans-serif', defaultTheme.fontFamily.sans]
-    }
+    fontFamily: {
+      sans: ['Roboto', 'sans-serif', defaultTheme.fontFamily.sans],
+    },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
-}
+  plugins: [require('flowbite/plugin')],
+};

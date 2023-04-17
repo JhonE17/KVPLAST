@@ -1,3 +1,4 @@
+import { initFlowbite } from "flowbite";
 import { AboutUs } from './About us/AboutUs';
 import { ContactUs } from './ContactUs/ContactUs';
 import { Products } from './Products/Products';
@@ -5,6 +6,7 @@ import { SuccesStories } from './SuccessStories/SuccesStories';
 import { ButtonSocialRed, ButtonWhatsapp, Footer, GalleryWithSlider, Navbar } from './components';
 
 function App() {
+  initFlowbite()
   return (
     <>
       <Navbar />
