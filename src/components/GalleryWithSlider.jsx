@@ -12,7 +12,7 @@ const images = [
 
 export const GalleryWithSlider = () => {
   return (
-    <div className='h-72 overflow-hidden rounded-lg md:h-130'>
+    <div className='h-72 overflow-hidden overscroll-none rounded-lg md:h-130'>
       <Carousel>
         {images.map((image, index) => (
         <div key={index} className='sm:max-w-full md:max-w-2/3 h-auto'>

@@ -1,6 +1,6 @@
 export const teams = [
   {
-    responsible: 'Diseño y Desarrollo de Soluciones',
+    responsible: 'Diseño y desarrollo de soluciones',
     image: 'assets/images/arquitectura.jpg',
     id: '1',
     occupations: 'Arquitectos',
@@ -9,18 +9,18 @@ export const teams = [
     responsible: '',
     image: 'assets/images/quimicos.jpg',
     id: '2',
-    occupations: 'Químicos Especializados en Cada Proyecto',
+    occupations: 'Químicos especializados en cada proyecto',
   },
   {
     responsible: '',
     image: 'assets/images/instaladores.jpg',
     id: '3',
-    occupations: 'Instaladores Especializados',
+    occupations: 'Instaladores especializados',
   },
   {
     responsible: '',
     image: 'assets/images/asesores.jpg',
     id: '4',
-    occupations: 'Equipo de Asesoramiento',
+    occupations: 'Equipo de asesoramiento',
   },
 ];

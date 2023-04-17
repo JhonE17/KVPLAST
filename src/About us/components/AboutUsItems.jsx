@@ -5,8 +5,8 @@ export const AboutUsItems = () => {
   return (
     <div className='grid grid-cols-1 justify-items-center lg:mx-40 md:grid-cols-4 gap-4 '>
       {teams.map((team, index) => (
-        <div key={index} className='md:my-4 my-4 md:w-52 md:h-auto'>
-          <Card className='md:w-52 h-72' imgAlt={team.occupations} imgSrc={team.image}>
+        <div key={index} className='m-2'>
+          <Card className='card-image ' imgAlt={team.occupations} imgSrc={team.image}>
             <div>
               <h5 className='text-base text-center font-semibold tracking-tight text-gray-700 '>
                 {team.occupations}

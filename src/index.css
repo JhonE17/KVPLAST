@@ -7,24 +7,29 @@ ion-icon{
   font-size: 24px;
 }
 
-.rounded-t-lg{
+/* .rounded-t-lg{
   height: 25rem;
-}
-
-/* .whatsapp {
-  position:fixed;
-  width:70px;
-  height:70px;
-  bottom:40px;
-  right:15px;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  z-index:100;
-}
-
-.whatsapp-icon {
-  margin-top:10px;
 } */
+
+.carousel > div{
+  border-radius: 0 0 0.5rem 0.8rem ;
+}
+.card-image{
+  width: 210px;
+  /* height: 200px; */
+}
+
+.card-image img {
+  height: 200px;
+  width: 280px;
+  
+}
+@media only screen and (max-width: 640px) {
+  .card-image{
+    width: 350px;
+  }
+  .card-image img {
+    height: 200px;
+    width: 350px ;
+  }
+}
