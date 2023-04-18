@@ -12,6 +12,7 @@ export const Footer = () => {
             <span className='self-center text-4xl font-semibold whitespace-nowrap '>
               <span className='text-gray-700'>KV</span>
               <span className='text-gray-400'>PLAST</span>
+              <span className="text-xs">®</span>
             </span>
           </a>
         </div>

@@ -21,7 +21,7 @@ const handleInit= ()=>{
 <nav className="border-gray-200 bg-gray-50">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="/" className="flex items-center">
-        <span className="self-center text-4xl font-black whitespace-nowrap "><span className="text-gray-700">KV</span><span className="text-gray-500">PLAST</span></span>
+        <span className="self-center text-4xl font-black whitespace-nowrap "><span className="text-gray-700">KV</span><span className="text-gray-500">PLAST</span><span className="text-xs">®</span></span>
     </a>
     <button onClick={onToggleBar} id="triggerEl" data-collapse-toggle="navbar-solid-bg" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-solid-bg" aria-expanded={`${expand}`}>
       <span className="sr-only">Open main menu</span>
