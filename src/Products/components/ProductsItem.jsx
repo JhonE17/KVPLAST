@@ -29,55 +29,6 @@ export const ProductsItem = () => {
           <Product key={index} data={tina} />
           ))}
       </div>
-      {/* <div className='max-w-sm p-6 bg-white border shadow border-gray-200 rounded-lg'>
-          <img src='assets/images/biodigestor.jpg' alt='' />
-          <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-            Biodigestor Autolimpiable
-          </p>
-
-          <button
-            data-modal-target='defaultModal'
-            data-modal-toggle='defaultModal'
-            className='block text-gray-700  hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
-            type='button'
-            onClick={()=>setShowModal(true)}>
-            Ver más...
-          </button>
-
-          <Modal visible={showModal} close={onClose}/>
-        </div>
-        <div className='max-w-sm p-6 bg-white border shadow border-gray-200 rounded-lg'>
-          <img src='assets/images/biodigestor.jpg' alt='' />
-          <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-            Biodigestor Autolimpiable
-          </p>
-
-          <button
-            data-modal-target='defaultModal'
-            data-modal-toggle='defaultModal'
-            className='block text-gray-700  hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
-            type='button'>
-            Ver más...
-          </button>
-
-          <Modal />
-        </div>
-        <div className='max-w-sm p-6 bg-white border shadow border-gray-200 rounded-lg'>
-          <img src='assets/images/biodigestor.jpg' alt='' />
-          <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-            Biodigestor Autolimpiable
-          </p>
-
-          <button
-            data-modal-target='defaultModal'
-            data-modal-toggle='defaultModal'
-            className='block text-gray-700  hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
-            type='button'>
-            Ver más...
-          </button>
-
-          <Modal />
-        </div> */}
     </div>
   );
 };
