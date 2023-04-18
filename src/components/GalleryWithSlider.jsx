@@ -2,7 +2,6 @@ import { Carousel } from 'flowbite-react';
 
 //Data
 const images = [
-  { path: 'assets/images/01.jpg', text: '', textBold: '' },
   {
     path: 'assets/images/02.jpg',
     text: '(Tecnología lodos activados y aereación extendida) quitar el logo ECW de la caseta y colocar el logtipo de KV PLAST',
@@ -10,7 +9,7 @@ const images = [
   },
   { path: 'assets/images/03.jpg', text: '¡Pregunta a nuestro equipo asesor!', textBold: 'Tinacos en capacidad mínimas y máximas a precios accesibles' },
   { path: 'assets/images/biodigestordual.png', text: '', textBold: 'Biodigestores' },
-  { path: 'assets/images/05.png', text: '', textBold: 'Plantas de tratamiento de aguas residuales tipo paquete (móviles)' },
+  { path: 'assets/images/01.jpeg', text: '', textBold: 'Plantas de tratamiento de aguas residuales tipo paquete (móviles)' },
   {
     path: 'assets/images/biodigestor-autolimpiable.jpg',
     text: '',
@@ -23,7 +22,7 @@ const images = [
 export const GalleryWithSlider = () => {
   return (
     <div className='h-96 overflow-hidden overscroll-none rounded-lg md:h-138'>
-      <Carousel  slideInterval={7000} indicators={false} >
+      <Carousel  slideInterval={10000} indicators={false} >
         {images.map((image, index) => (
           <div key={index} className='sm:max-w-full md:max-w-60 h-auto'>
             <img src={image.path} className='' alt='...' />

@@ -29,6 +29,7 @@ export const ProductsItem = () => {
           <Product key={index} data={tina} />
           ))}
       </div>
+          <SubtitleProduct title={'Sección Tratamiento Especializado de aguas'} />
     </div>
   );
 };
