@@ -19,9 +19,9 @@ export const SuccessStoriesItem = () => {
                   className='rounded-full mb-3 w-16 h-16 mt-5 md:w-36 md:h-36 object-cover'
                   alt={exito.full_name}
                 />
-                <h5 className='md:text-base text-sm px-3 md:mx-40 text-justify font-semibold tracking-tight text-gray-600 '>
+                <p className='md:text-base text-sm px-3 md:mx-40 text-justify font-semibold tracking-tight text-gray-600 '>
                   {exito.text}
-                </h5>
+                </p>
                 <h5 className='md:text-3xl text-lg text-center font-semibold tracking-tight text-gray-700 '>
                   {exito.full_name}
                 </h5>

@@ -19,11 +19,19 @@ export default {
     extend: {
       maxWidth: {
         '2/3': '70%',
+        '1/2': '50%',
+        '60': '65%',
       },
       height: {
         130: '34rem',
+        138: '39rem',
         extend: '110%',
       },
+      width:{
+        130: '34rem',
+        138: '38rem',
+        extend: '110%',
+      }
     },
     colors: {
       cyan: '#24C7CE',
