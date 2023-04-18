@@ -3,6 +3,7 @@ import { aqua, biodigestor } from '../data';
 import { SubtitleProduct } from './SubtitleProduct';
 import { Product } from './Product';
 import { tinacos } from '../data/tinacos';
+import { tratamientos } from '../data/tratramientos';
 
 export const ProductsItem = () => {
   return (
@@ -30,6 +31,11 @@ export const ProductsItem = () => {
           ))}
       </div>
           <SubtitleProduct title={'Sección Tratamiento Especializado de aguas'} />
+        <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
+        {tratamientos.map((trata, index) => (
+          <Product key={index} data={trata} />
+          ))}
+      </div>
     </div>
   );
 };
