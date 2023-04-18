@@ -2,6 +2,7 @@
 import { aqua, biodigestor } from '../data';
 import { SubtitleProduct } from './SubtitleProduct';
 import { Product } from './Product';
+import { tinacos } from '../data/tinacos';
 
 export const ProductsItem = () => {
   return (
@@ -16,13 +17,18 @@ export const ProductsItem = () => {
           <Product key={index} data={aquaItems} />
           ))}
       </div>
-          <SubtitleProduct title={'Biodigestores'} />
+          <SubtitleProduct title={'Sección Biodigestores'} />
       <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
         {biodigestor.map((bio, index) => (
           <Product key={index} data={bio} />
-        ))}
+          ))}
       </div>
-
+        <SubtitleProduct title={'Sección Tinacos y Cisternas'} />
+        <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
+        {tinacos.map((tina, index) => (
+          <Product key={index} data={tina} />
+          ))}
+      </div>
       {/* <div className='max-w-sm p-6 bg-white border shadow border-gray-200 rounded-lg'>
           <img src='assets/images/biodigestor.jpg' alt='' />
           <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
