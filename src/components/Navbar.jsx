@@ -39,6 +39,12 @@ const handleInit= ()=>{
           <a href="#productos" onClick={handleInit} className="transition ease-in-out duration-300 block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Productos</a>
         </li>
         <li>
+          <a href="#" onClick={handleInit} className="transition ease-in-out duration-300 block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Blog</a>
+        </li>
+        <li>
+          <a href="#" onClick={handleInit} className="transition ease-in-out duration-300 block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Próximos eventos</a>
+        </li>
+        <li>
           <a href="#contactenos" onClick={handleInit} className="transition ease-in-out duration-300 block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 ">Contáctenos</a>
         </li>
       </ul>
