@@ -51,7 +51,7 @@ const handleClose = (e)=>{
               </div>
               {/* Paragraph product */}
               {
-                (data.id == 3 || data.id == 2) ? ( data.parrafo1.map((parrf, index)=>(
+                (data.id == 3 || data.id == 2 || data.id > 4) ? ( data.parrafo1.map((parrf, index)=>(
                   <ParagraphProduct key={index} paragraph={parrf}/>
                 ))):  <ParagraphProduct paragraph={data.parrafo1}/>
               }
