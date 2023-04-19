@@ -2,7 +2,7 @@
 export const ButtonWhatsapp = () => {
   return (
     <a
-    href='https://wa.me/+5215571123798?text=Me%20gustaría%20saber%20el%20precio%20de%20sus%20productos'
+    href='https://wa.me/+5215571123798?text=Hola,%20me%20interesa%20cotizar%20un%20tinaco%20KVplast'
     className='bg-green-400 hover:bg-green-300 text-white fixed z-40 bottom-16 right-3 rounded-full h-14 w-14 md:h-20 md:w-20 flex items-center justify-center'
     target='_blank'>
     <svg xmlns='http://www.w3.org/2000/svg' className=' md:h-16 md:w-16  h-12 w-12' fill="currentColor" aria-hidden="true" viewBox='0 0 448 512'>

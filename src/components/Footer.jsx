@@ -41,7 +41,7 @@ export const Footer = () => {
               </svg>
               <span className='sr-only'>Facebook page</span>
             </a>
-            <a href='https://wa.me/+5215571123798?text=Me%20gustaría%20saber%20el%20precio%20de%20sus%20productos' className='text-gray-500 hover:text-gray-900 '>
+            <a href='https://wa.me/+5215571123798?text=Hola,%20me%20interesa%20cotizar%20un%20tinaco%20KVplast' className='text-gray-500 hover:text-gray-900 '>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='w-5 h-5'

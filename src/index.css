@@ -10,9 +10,6 @@ ion-icon{
   scroll-behavior: smooth;
 }
 
-/* .rounded-t-lg{
-  height: 25rem;
-} */
 
 .carousel > div{
   border-radius: 0 0 0.5rem 0.8rem ;
