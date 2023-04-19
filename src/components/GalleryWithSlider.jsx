@@ -4,7 +4,7 @@ import { Carousel } from 'flowbite-react';
 const images = [
   {
     path: 'assets/images/02.jpg',
-    text: '(Tecnología lodos activados y aereación extendida) quitar el logo ECW de la caseta y colocar el logtipo de KV PLAST',
+    text: 'Tecnología lodos activados y aereación extendida',
     textBold: 'Plantas de Tratamiento de Aguas Residuales',
   },
   { path: 'assets/images/03.jpg', text: '¡Pregunta a nuestro equipo asesor!', textBold: 'Tinacos en capacidad mínimas y máximas a precios accesibles' },
