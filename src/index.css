@@ -19,6 +19,16 @@ ion-icon{
   /* height: 200px; */
 }
 
+.btn-carousel button >span {
+  background-color: #000000a8;
+}
+.btn-carousel button >span>:hover {
+  /* background-color: #070606e5; */
+  color: #000000e8;
+}
+
+
+
 .card-image img {
   height: 200px;
   width: 280px;

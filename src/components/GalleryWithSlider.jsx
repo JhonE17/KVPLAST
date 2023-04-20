@@ -22,7 +22,7 @@ const images = [
 export const GalleryWithSlider = () => {
   return (
     <div className='h-96 overflow-hidden overscroll-none rounded-lg md:h-138'>
-      <Carousel  slideInterval={10000} indicators={false} >
+      <Carousel className='btn-carousel'  slideInterval={10000} indicators={false} >
         {images.map((image, index) => (
           <div key={index} className='sm:max-w-full md:max-w-60 h-auto'>
             <img src={image.path} className='' alt='...' />
