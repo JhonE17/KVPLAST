@@ -1,5 +1,5 @@
 import { Carousel } from 'flowbite-react';
-import { successStoriesItem } from './data/successStories';
+import { successStoriesItem } from '../data/successStories';
 
 export const SuccessStoriesItem = () => {
   return (

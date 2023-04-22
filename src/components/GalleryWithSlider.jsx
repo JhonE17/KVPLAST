@@ -11,7 +11,7 @@ const images = [
   { path: 'assets/images/biodigestordual.png', text: '', textBold: 'Biodigestores' },
   { path: 'assets/images/01.jpeg', text: '', textBold: 'Plantas de tratamiento de aguas residuales tipo paquete (móviles)' },
   {
-    path: 'assets/images/biodigestor-autolimpiable.jpg',
+    path: 'assets/images/biodigestor-autolimpiable.png',
     text: '',
     textBold: 'Biodigestores Móviles',
   },

@@ -7,73 +7,73 @@ export const AboutUsInfo = () => {
         </h2>
         <div className='my-10 text-lg font-normal mx-4 text-justify text-gray-500 lg:text-xl sm:px-16 xl:px-36'>
           <p className='mb-5'>
-            Hace más de 30 años el equipo fundador de <b>KV Plast</b> encontró
+            Hace más de 30 años, el equipo fundador de <b>KV PLAST</b> encontró
             la oportunidad de especializarse en equipos de aguas específicos y 
             ¡Lo logramos! <br />
             Trabajamos arduamente desde 1970 para desarrollar proyectos de
-            Calidad, hace 7 años producimos con la certificación<b> ISO 9001 2015 </b> en todas nuestras Unidades de Negocios:
+            calidad. Hace 7 años producimos con la certificación<b> ISO 9001 2015 </b> en todas nuestras unidades de negocios:
           </p>
-          <ol>
+          <ol className="list-disc mx-3">
             <li className='mb-3'>
               <p>
                 <b>
-                  1. Venta de Tinacos para minoristas y mayoristas (Entregamos a toda la República Mexicana):
+                  Venta de Tinacos para minoristas y mayoristas (Entregamos a toda la República Mexicana):
                 </b>
                 Capacidades de 120, 300, 500, 750, 1,100, 2500 l, 5,000 l, hasta 10,000, 20,000 l y hasta 30,000 litros.
               </p>
             </li>
             <li className='mb-3'>
               <p>
-                <b>2. Venta de Cisternas y Tanques de almacenamiento: </b>
+                <b>Venta de Cisternas y Tanques de almacenamiento: </b>
               </p>
-              <ol>
-                <li>
-                  <b>2.1.</b> Ideales para almacenar químicos, fragancias y
-                  sustancias peligrosas que deben ser aislados.
+              <ol className="list-disc translate-x-4">
+                <li>Ideales para el almacenamiento de químicos, fragancias y sustancias peligrosas que deben ser aisladas.
                 </li>
               </ol>
             </li>
             <li className='mb-3'>
               <p>
-                <b>3. Tratamiento Especializado de aguas:</b>
+                <b>Tratamiento especializado de aguas:</b>
               </p>
-              <ol>
+              <ol className="list-disc translate-x-4">
                 <li className='mb-1'>
                   <p>
-                    <b>3.1.</b> Aguas grises o jabonosas
+                    Aguas grises o jabonosas
                   </p>
                 </li>
                 <li className='mb-1'>
                   <p>
-                    <b>3.2.</b> Aguas pluviales
+                    Aguas pluviales
                   </p>
                 </li>
                 <li className='mb-1'>
                   <p>
-                    <b>3.3.</b> Aguas de mar
+                    Aguas de mar
                   </p>
                 </li>
                 <li className='mb-1'>
                   <p>
-                    <b>3.4.</b> Aguas industriales
+                    Aguas industriales
                   </p>
                 </li>
                 <li className='mb-1'>
                   <p>
-                    <b>3.5.</b> Aguas de uso industrial (mineral, irónico
-                    intercambio, oxigenadas, aguas destiladas, etc).
+                    Aguas de uso industrial (mineral, intercambio iónico, oxigenadas, aguas destiladas, entre otras).
                   </p>
                 </li>
               </ol>
             </li>
             <li className='mb-3'>
               <p>
-                <b>4. Potabilizadoras: </b>Desarrollamos proyectos que
+                <b>Potabilizadoras: </b>Desarrollamos proyectos que
                 suministren agua potable a comunidades, empresas, colonias,
-                ¡Pregunta por nuestros paquetes pre armados!.
+                ¡Pregunta por nuestros paquetes pre-armados!.
               </p>
             </li>
           </ol>
+          <p className='mb-5'>
+            En<b> KV PLAST </b>nos comprometemos a brindar soluciones integrales y de alta calidad para el tratamiento de agua.
+          </p>
         </div>
       </div>
     </>

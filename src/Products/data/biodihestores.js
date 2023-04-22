@@ -9,7 +9,7 @@ export const biodigestor =[
     },{
         id:3,
         name: 'Biodigestor Autolimpiable',
-        image: 'assets/images/biodigestor-autolimpiable.jpg',
+        image: 'assets/images/biodigestor-autolimpiable.png',
         doc: 'assets/docs/BiodigestorAutolimpiable.pdf',
         title1: 'Especificaciones técnicas',
         parrafo1:['• Equipo para el tratamiento primario de aguas negras y grises para su descarga a suelo (pozo de absorción o infiltración) o drenaje.', '• Sistema patentado de autolimpieza para purga de lodo, sin necesidad de usar equipo especial.',' • Utiliza un filtro anaerobio interno que aumenta la eficiencia detratamiento del agua, no requiere de electricidad para su funcionamiento o algún producto químico para tratar el agua.', ' • Fabricado con HDPE 100% virgen de una sola pieza (polietileno de alta densidad).']
@@ -18,7 +18,7 @@ export const biodigestor =[
     {
         id:4,
         name: 'Biodigestor BIO-VK 1400',
-        image: 'assets/images/biodigestor.jpg',
+        image: 'assets/images/biodigestor.png',
         doc:'assets/docs/BIODIGESTOR KVPLAST.pdf',
         title1:'Funcionamiento',
         parrafo1: 'Cuando el sistema BIO-VK 1400 recibe una descarga entra por el ducto (#1), almacenándose en la CAM #1 y posteriormente,CAM #2yCAM #3respectivamente. Este proceso permite la degradación del sólido, transformándolo en lodo, logrando la limpieza del líquido.',

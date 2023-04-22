@@ -11,26 +11,26 @@ export const ProductsItem = () => {
       <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
         Productos
       </h2>
-      <SubtitleProduct title={'Sección Tratatamiento de Agua Pluvial'} />
+      <SubtitleProduct title={'Tratamiento de agua pluvial'} />
 
       <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
         {aqua.map((aquaItems, index) => (
           <Product key={index} data={aquaItems} />
           ))}
       </div>
-          <SubtitleProduct title={'Sección Biodigestores'} />
+          <SubtitleProduct title={'Biodigestores'} />
       <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
         {biodigestor.map((bio, index) => (
           <Product key={index} data={bio} />
           ))}
       </div>
-        <SubtitleProduct title={'Sección Tinacos y Cisternas'} />
+        <SubtitleProduct title={'Tinacos y Cisternas'} />
         <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
         {tinacos.map((tina, index) => (
           <Product key={index} data={tina} />
           ))}
       </div>
-          <SubtitleProduct title={'Sección Tratamiento Especializado de aguas'} />
+          <SubtitleProduct title={'Tratamiento especializado de aguas'} />
         <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
         {tratamientos.map((trata, index) => (
           <Product key={index} data={trata} />
