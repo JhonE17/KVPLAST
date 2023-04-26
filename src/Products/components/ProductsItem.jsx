@@ -1,4 +1,3 @@
-
 import { aqua, biodigestor } from '../data';
 import { SubtitleProduct } from './SubtitleProduct';
 import { Product } from './Product';
@@ -11,30 +10,29 @@ export const ProductsItem = () => {
       <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
         Productos
       </h2>
-      <SubtitleProduct title={'Tratamiento de agua pluvial'} />
-
+      <SubtitleProduct title={'Tinacos y Cisternas'} />
       <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
-        {aqua.map((aquaItems, index) => (
-          <Product key={index} data={aquaItems} />
-          ))}
+        {tinacos.map((tina, index) => (
+          <Product key={index} data={tina} />
+        ))}
       </div>
-          <SubtitleProduct title={'Biodigestores'} />
+      <SubtitleProduct title={'Biodigestores'} />
       <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
         {biodigestor.map((bio, index) => (
           <Product key={index} data={bio} />
-          ))}
+        ))}
       </div>
-        <SubtitleProduct title={'Tinacos y Cisternas'} />
-        <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
-        {tinacos.map((tina, index) => (
-          <Product key={index} data={tina} />
-          ))}
-      </div>
-          <SubtitleProduct title={'Tratamiento especializado de aguas'} />
-        <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
+      <SubtitleProduct title={'Tratamiento especializado de aguas'} />
+      <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
         {tratamientos.map((trata, index) => (
           <Product key={index} data={trata} />
-          ))}
+        ))}
+      </div>
+      <SubtitleProduct title={'Tratamiento de agua pluvial'} />
+      <div className='  grid grid-cols-1 place-items-center w-auto md:mx-32 md:grid-cols-3  gap-4'>
+        {aqua.map((aquaItems, index) => (
+          <Product key={index} data={aquaItems} />
+        ))}
       </div>
     </div>
   );

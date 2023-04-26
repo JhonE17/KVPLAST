@@ -59,7 +59,7 @@ export const tinacos = [
     id: 9,
     name: 'Tinaco 1100LTS',
     image: 'assets/images/tinaco1100lts.png',
-    doc: 'assets/docs/tinacos.pdf',
+    doc: 'assets/docs/tinacos.pdf', 
     title1: 'Caracteristicas',
     parrafo1: [
       '∙ Material    ----->   Polietileno',
