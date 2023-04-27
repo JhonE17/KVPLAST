@@ -13,7 +13,7 @@ const images = [
 
 export const GalleryWithSlider = () => {
   return (
-    <div className='h-96 overflow-hidden overscroll-none  md:h-138'>
+    <div className='h-52 overflow-hidden overscroll-none  md:h-138'>
       <Carousel
         className='btn-carousel carousel'
         slideInterval={10000}
