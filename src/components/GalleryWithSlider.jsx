@@ -19,9 +19,12 @@ export const GalleryWithSlider = () => {
         slideInterval={10000}
         indicators={false}>
         {images.map((image, index) => (
-          <div key={index} className=''>
-            <img src={image.path} className='' alt='...' />
-          </div>
+          <img
+            key={index}
+            src={image.path}
+            className=' md:max-w-7xl'
+            alt='...'
+          />
         ))}
       </Carousel>
     </div>
