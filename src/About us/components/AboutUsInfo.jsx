@@ -3,7 +3,7 @@ export const AboutUsInfo = () => {
     <>
       <div id='nuestro-equipo'>
         <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
-          Nuestro Equipo
+          Nuestro equipo
         </h2>
         <div className='my-10 text-lg font-normal mx-4 text-justify text-gray-500 lg:text-xl sm:px-16 xl:px-36'>
           <p className='mb-5'>
