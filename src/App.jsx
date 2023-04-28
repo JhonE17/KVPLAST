@@ -1,19 +1,23 @@
-import { Navbar } from './components/Navbar';
-import { GalleryWithSlider } from './components/GalleryWithSlider';
+// import { initFlowbite } from "flowbite";
 import { AboutUs } from './About us/AboutUs';
-import { SuccesStories } from './SuccessStories/SuccesStories';
 import { ContactUs } from './ContactUs/ContactUs';
-import { Footer } from './components/Footer';
+import { Products } from './Products/Products';
+import { SuccesStories } from './SuccessStories/SuccesStories';
+import { ButtonSocialRed, ButtonWhatsapp, Footer, GalleryWithSlider, Navbar } from './components';
 
 function App() {
+  // initFlowbite()
   return (
     <>
       <Navbar />
-      <GalleryWithSlider/>
+      <GalleryWithSlider />
       <AboutUs />
-      <SuccesStories/>
-      <ContactUs/>
-      <Footer/>
+      <SuccesStories />
+      <Products/>
+      <ContactUs />
+      <Footer />
+      <ButtonWhatsapp/>
+      <ButtonSocialRed/>
     </>
   );
 }

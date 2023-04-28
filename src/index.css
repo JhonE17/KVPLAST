@@ -6,3 +6,41 @@ ion-icon{
   color: grey;
   font-size: 24px;
 }
+*{
+  scroll-behavior: smooth;
+}
+
+
+.carousel > div{
+  border-radius: 0 0 0.5rem 0.8rem  ;
+}
+.card-image{
+  width: 210px;
+  /* height: 200px; */
+}
+
+.btn-carousel button >span {
+  background-color: #000000a8;
+}
+.btn-carousel button >span>:hover {
+  /* background-color: #070606e5; */
+  color: #000000e8;
+}
+
+
+
+.card-image img {
+  height: 200px;
+  width: 280px;
+  
+}
+
+@media only screen and (max-width: 640px) {
+  .card-image{
+    width: 350px;
+  }
+  .card-image img {
+    height: 200px;
+    width: 350px ;
+  }
+}
