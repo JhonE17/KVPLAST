@@ -2,7 +2,7 @@ export const aqua = [
   {
     id: 1,
     name: 'Aqua pluvial',
-    image: 'assets/images/aquapluvial.png',
+    image: 'assets/images/aquapluvial.webp',
     doc: 'assets/docs/aquapluvial.pdf',
     title1: 'SISTEMA DE FILTRACIÓN',
     parrafo1:
