@@ -6,7 +6,7 @@ import { tratamientos } from '../data/tratramientos';
 
 export const ProductsItem = () => {
   return (
-    <div id='productos'>
+    <div className='pt-4' id='productos'>
       <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
         Productos
       </h2>

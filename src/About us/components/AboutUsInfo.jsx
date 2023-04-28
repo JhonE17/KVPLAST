@@ -1,7 +1,7 @@
 export const AboutUsInfo = () => {
   return (
     <>
-      <div id='nuestro-equipo'>
+      <div className="pt-4" id='nuestro-equipo'>
         <h2 className='mb-4 text-3xl mt-20 font-semibold text-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
           Nuestro equipo
         </h2>

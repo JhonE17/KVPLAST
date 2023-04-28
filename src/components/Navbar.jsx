@@ -18,7 +18,7 @@ const handleInit= ()=>{
  
   return (
   
-<nav className="border-gray-200 bg-gray-50">
+<nav className="border-gray-200 fixed z-50 w-full pt-0 bg-gray-50">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="/" className="flex items-center">
         <span className="self-center text-4xl font-black whitespace-nowrap "><span className="text-gray-700">KV</span><span className="text-gray-500">PLAST</span><span className="text-xs">®</span></span>

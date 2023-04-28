@@ -4,7 +4,7 @@ import { countries, publicities } from '../data';
 export const FormContactUs = () => {
   return (
     <>
-      <div id='contactenos' className='mx-8'>
+      <div id='contactenos' className='mx-8 pt-4'>
         <h2 className='mb-4 text-3xl mt-20 font-semibold text-center items-center justify-items-center leading-none tracking-tight text-gray-700 md:text-4xl lg:text-5xl'>
           Contáctenos
         </h2>

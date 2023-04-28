@@ -4,7 +4,7 @@ import { successStoriesItem } from '../data/successStories';
 export const SuccessStoriesItem = () => {
   return (
     <>
-      <div id='casos-exitos' className='scroll-smooth'>
+      <div id='casos-exitos' className='pt-4 scroll-smooth'>
         <h3 className='text-3xl h-14 py-3 mt-20 font-semibold text-center leading-none tracking-tight bg-gray-300 text-gray-700 md:text-4xl lg:text-5xl'>
           Casos de éxitos
         </h3>
