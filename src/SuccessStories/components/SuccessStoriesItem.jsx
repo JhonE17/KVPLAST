@@ -1,34 +1,63 @@
 import { Carousel } from 'flowbite-react';
-import { successStoriesItem } from '../data/successStories';
+
+const data = [
+  {
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sequi nisi ipsum similique at quas amet pariatur, odio accusantium odit sunt provident libero dignissimos adipisci? Ipsam suscipit error voluptate laudantium.',
+    username: 'el_capit4n',
+    profile_picture: 'https://i.pravatar.cc/300?img=1',
+    id: '1813181663',
+    full_name: 'Aidan Shah',
+  },
+  {
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sequi nisi ipsum similique at quas amet pariatur, odio accusantium odit sunt provident libero dignissimos adipisci? Ipsam suscipit error voluptate laudantium.',
+    username: 'a_grillz10',
+    profile_picture: 'https://i.pravatar.cc/300?img=2',
+    id: '55897168',
+    full_name: 'Adam Grillo',
+  },
+  {
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sequi nisi ipsum similique at quas amet pariatur, odio accusantium odit sunt provident libero dignissimos adipisci? Ipsam suscipit error voluptate laudantium.',
+    username: 'chelphill',
+    profile_picture: 'https://i.pravatar.cc/300?img=3',
+    id: '176724813',
+    full_name: 'Chelsea Phillips',
+  },
+  {
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sequi nisi ipsum similique at quas amet pariatur, odio accusantium odit sunt provident libero dignissimos adipisci? Ipsam suscipit error voluptate laudantium.',
+    username: 'mahsa_shabani64',
+    profile_picture: 'https://i.pravatar.cc/300?img=5',
+    id: '1779523061',
+    full_name: 'Mahsa',
+  },
+];
 
 export const SuccessStoriesItem = () => {
   return (
     <>
-      <div id='casos-exitos' className='pt-4 scroll-smooth'>
-        <h3 className='text-3xl h-14 py-3 mt-20 font-semibold text-center leading-none tracking-tight bg-gray-300 text-gray-700 md:text-4xl lg:text-5xl'>
-          Casos de éxitos
-        </h3>
-        <div className='h-80 overflow-hidden overscroll-none sm:h-96 xl:h-96 2xl:h-96'>
-          <Carousel slideInterval={20000} className='carousel'>
-            {successStoriesItem.map((exito, index) => (
-              <div
-                key={index}
-                className='flex h-full flex-col place-content-center items-center content-center justify-center mb-4 bg-gray-300 '>
+      <h3 className='text-3xl mt-20 font-semibold text-center leading-none tracking-tight bg-gray-400 text-white md:text-4xl lg:text-5xl'>
+        Casos de exitos
+      </h3>
+      <div className='h-56 sm:h-96 xl:h-80 2xl:h-96'>
+        <Carousel indicators={false}>
+          {data.map((exito, index) => (
+            <div
+              key={index}
+              className='flex md:h-full h-extend flex-col place-content-center items-center content-center justify-center mb-4 bg-gray-400 '>
+              
                 <img
                   src={exito.profile_picture}
                   className='rounded-full mb-3 w-16 h-16 mt-5 md:w-36 md:h-36 object-cover'
-                  alt={exito.full_name}
+                  alt=''
                 />
-                <p className='md:text-base text-sm px-3 md:mx-40 text-justify font-semibold tracking-tight text-gray-600 '>
+                <h5 className='md:text-base text-sm px-3 md:mx-40 text-justify font-semibold tracking-tight text-gray-700 '>
                   {exito.text}
-                </p>
-                <h5 className='md:text-3xl text-lg text-center font-semibold tracking-tight text-gray-700 '>
-                  {exito.full_name}
                 </h5>
-              </div>
-            ))}
-          </Carousel>
-        </div>
+                <h5 className='md:text-3xl text-lg text-center font-semibold tracking-tight text-white '>
+                {exito.full_name}
+              </h5>
+            </div>
+          ))}
+        </Carousel>
       </div>
     </>
   );
