@@ -26,7 +26,7 @@ export const tratamientos = [
   {
     id: 15,
     name: 'Planta de tratamiento de aguas',
-    image: 'assets/images/Tratamiento010.jpg',
+    image: 'assets/images/Tratamiento010.png',
     doc: '',
     title1: 'Caracteristicas',
     parrafo1: [],
